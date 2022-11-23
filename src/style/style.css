@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #0f3460;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    color: #f9f5eb;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+nav h2 {
+    text-align: center;
+}
+
+article-card,
+.card {
+    display: flex;
+    border: 1px solid;
+    background-color: #f9f5eb;
+    padding: 20px;
+    width: 70%;
+    margin: 2% 13%;
+    border: 2px solid #1c3879;
+    border-radius: 5px;
+    box-shadow: 2px 5px 2px 2px rgba(179, 175, 180, 0.933);
+    align-items: center;
+    justify-items: center;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+}
+
+.card-text {
+    font-size: 20px;
+    font-family: 'Open-sans', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 85%;
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.submit {
+    /* display: flex;
+    flex-direction: row; */
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #607eaa;
+    color: white;
+}
+
+.submit:hover {
+    background-color: #1c3879;
+}
+
+.temperatur-cuaca {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin: 10px 0;
+    display: flex;
+    border: 1px solid;
+    padding: 10px 15px;
+    background-color: #1c3879;
+    border-radius: 10px;
+    color: #f9f5eb;
+}
+
+.result {
+    text-transform: uppercase;
+}
+
+.detail p {
+    margin: 15px 0;
+}
+
+@media screen and (max-width: 100px) {
+    .card,
+    .card-content,
+    input[type='text'] {
+        width: 70%;
+    }
+    li p {
+        font-size: 50%;
+    }
+}
